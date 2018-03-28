@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5DB0D4206A812900EB08BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DB0D3206A812900EB08BC /* main.m */; };
+		3D5DB0D7206A812900EB08BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DB0D6206A812900EB08BC /* AppDelegate.m */; };
+		3D5DB0DA206A812900EB08BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DB0D9206A812900EB08BC /* ViewController.m */; };
+		3D5DB0DD206A812900EB08BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5DB0DB206A812900EB08BC /* Main.storyboard */; };
+		3D5DB0E0206A812900EB08BC /* DanceWithRN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DB0DE206A812900EB08BC /* DanceWithRN.xcdatamodeld */; };
+		3D5DB0E2206A812900EB08BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5DB0E1206A812900EB08BC /* Assets.xcassets */; };
+		3D5DB0E5206A812900EB08BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5DB0E3206A812900EB08BC /* LaunchScreen.storyboard */; };
+		3D5DB0ED206B40B600EB08BC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5DB0EC206B40B600EB08BC /* JavaScriptCore.framework */; };
+		3D5DB0F1206B787100EB08BC /* hello.js in Resources */ = {isa = PBXBuildFile; fileRef = 3D5DB0F0206B787100EB08BC /* hello.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DDE8BED07590FC37D905210 /* Pods-DanceWithRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceWithRN.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceWithRN/Pods-DanceWithRN.release.xcconfig"; sourceTree = "<group>"; };
+		3D5DB0CF206A812900EB08BC /* DanceWithRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceWithRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5DB0D3206A812900EB08BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D5DB0D5206A812900EB08BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D5DB0D6206A812900EB08BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D5DB0D8206A812900EB08BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D5DB0D9206A812900EB08BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D5DB0DC206A812900EB08BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D5DB0DF206A812900EB08BC /* DanceWithRN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DanceWithRN.xcdatamodel; sourceTree = "<group>"; };
+		3D5DB0E1206A812900EB08BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5DB0E4206A812900EB08BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D5DB0E6206A812900EB08BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5DB0EC206B40B600EB08BC /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3D5DB0F0206B787100EB08BC /* hello.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = hello.js; path = bundlejs/hello.js; sourceTree = "<group>"; };
+		654BC6FEE22294CB728117B5 /* libPods-DanceWithRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DanceWithRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D539FECC85956E0B6F573D2 /* Pods-DanceWithRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceWithRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceWithRN/Pods-DanceWithRN.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5DB0CC206A812900EB08BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5DB0ED206B40B600EB08BC /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E9D7593AA6E31C5EF7D03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5DB0EC206B40B600EB08BC /* JavaScriptCore.framework */,
+				654BC6FEE22294CB728117B5 /* libPods-DanceWithRN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B344DE1B3B980F8BED1E937 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D539FECC85956E0B6F573D2 /* Pods-DanceWithRN.debug.xcconfig */,
+				1DDE8BED07590FC37D905210 /* Pods-DanceWithRN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D5DB0C6206A812900EB08BC = {
+			isa = PBXGroup;
+			children = (
+				3D5DB0F0206B787100EB08BC /* hello.js */,
+				3D5DB0D1206A812900EB08BC /* DanceWithRN */,
+				3D5DB0D0206A812900EB08BC /* Products */,
+				1B344DE1B3B980F8BED1E937 /* Pods */,
+				05E9D7593AA6E31C5EF7D03F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5DB0D0206A812900EB08BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5DB0CF206A812900EB08BC /* DanceWithRN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5DB0D1206A812900EB08BC /* DanceWithRN */ = {
+			isa = PBXGroup;
+			children = (
+				3D5DB0D5206A812900EB08BC /* AppDelegate.h */,
+				3D5DB0D6206A812900EB08BC /* AppDelegate.m */,
+				3D5DB0D8206A812900EB08BC /* ViewController.h */,
+				3D5DB0D9206A812900EB08BC /* ViewController.m */,
+				3D5DB0DB206A812900EB08BC /* Main.storyboard */,
+				3D5DB0E1206A812900EB08BC /* Assets.xcassets */,
+				3D5DB0E3206A812900EB08BC /* LaunchScreen.storyboard */,
+				3D5DB0E6206A812900EB08BC /* Info.plist */,
+				3D5DB0DE206A812900EB08BC /* DanceWithRN.xcdatamodeld */,
+				3D5DB0D2206A812900EB08BC /* Supporting Files */,
+			);
+			path = DanceWithRN;
+			sourceTree = "<group>";
+		};
+		3D5DB0D2206A812900EB08BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D5DB0D3206A812900EB08BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D5DB0CE206A812900EB08BC /* DanceWithRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5DB0E9206A812900EB08BC /* Build configuration list for PBXNativeTarget "DanceWithRN" */;
+			buildPhases = (
+				93C37EE5D2E253B471ADD1F5 /* [CP] Check Pods Manifest.lock */,
+				3D5DB0CB206A812900EB08BC /* Sources */,
+				3D5DB0CC206A812900EB08BC /* Frameworks */,
+				3D5DB0CD206A812900EB08BC /* Resources */,
+				AB4A59D7BF302A76C013F32B /* [CP] Embed Pods Frameworks */,
+				F294BCABC8BCAD3563C6A3A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanceWithRN;
+			productName = DanceWithRN;
+			productReference = 3D5DB0CF206A812900EB08BC /* DanceWithRN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5DB0C7206A812900EB08BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "林 夏";
+				TargetAttributes = {
+					3D5DB0CE206A812900EB08BC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D5DB0CA206A812900EB08BC /* Build configuration list for PBXProject "DanceWithRN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5DB0C6206A812900EB08BC;
+			productRefGroup = 3D5DB0D0206A812900EB08BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5DB0CE206A812900EB08BC /* DanceWithRN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5DB0CD206A812900EB08BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5DB0F1206B787100EB08BC /* hello.js in Resources */,
+				3D5DB0E5206A812900EB08BC /* LaunchScreen.storyboard in Resources */,
+				3D5DB0E2206A812900EB08BC /* Assets.xcassets in Resources */,
+				3D5DB0DD206A812900EB08BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93C37EE5D2E253B471ADD1F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DanceWithRN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4A59D7BF302A76C013F32B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceWithRN/Pods-DanceWithRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F294BCABC8BCAD3563C6A3A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DanceWithRN/Pods-DanceWithRN-resources.sh",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceWithRN/Pods-DanceWithRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5DB0CB206A812900EB08BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5DB0DA206A812900EB08BC /* ViewController.m in Sources */,
+				3D5DB0D7206A812900EB08BC /* AppDelegate.m in Sources */,
+				3D5DB0D4206A812900EB08BC /* main.m in Sources */,
+				3D5DB0E0206A812900EB08BC /* DanceWithRN.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D5DB0DB206A812900EB08BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5DB0DC206A812900EB08BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5DB0E3206A812900EB08BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5DB0E4206A812900EB08BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D5DB0E7206A812900EB08BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D5DB0E8206A812900EB08BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5DB0EA206A812900EB08BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D539FECC85956E0B6F573D2 /* Pods-DanceWithRN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DanceWithRN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sam.Five.DanceWithRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D5DB0EB206A812900EB08BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDE8BED07590FC37D905210 /* Pods-DanceWithRN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DanceWithRN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sam.Five.DanceWithRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5DB0CA206A812900EB08BC /* Build configuration list for PBXProject "DanceWithRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5DB0E7206A812900EB08BC /* Debug */,
+				3D5DB0E8206A812900EB08BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5DB0E9206A812900EB08BC /* Build configuration list for PBXNativeTarget "DanceWithRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5DB0EA206A812900EB08BC /* Debug */,
+				3D5DB0EB206A812900EB08BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D5DB0DE206A812900EB08BC /* DanceWithRN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D5DB0DF206A812900EB08BC /* DanceWithRN.xcdatamodel */,
+			);
+			currentVersion = 3D5DB0DF206A812900EB08BC /* DanceWithRN.xcdatamodel */;
+			path = DanceWithRN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D5DB0C7206A812900EB08BC /* Project object */;
+}
